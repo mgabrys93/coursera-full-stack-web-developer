@@ -1,0 +1,37 @@
+fieldset{
+	background: lightyellow;
+	border-color: yellow;
+	border-width: 10px;
+	border-style: solid;
+	margin-bottom: 10px; 
+	width: 720px;
+}
+label{
+	width: 180px;
+	display: inline-block; 
+	text-align: right; 
+	vertical-align: top;
+}
+textarea{
+	width: 360px; 
+	height: 50px;
+}
+#gender, #contactMethods{
+	width: auto;
+}
+.minRangeValue{
+	background-color: red; 
+	vertical-align: top; 
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+	padding: 3px
+}
+.maxRangeValue{
+	background-color: purple; 
+	vertical-align: top; 
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+	padding: 3px
+}

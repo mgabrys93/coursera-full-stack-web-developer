@@ -3,6 +3,7 @@
 <head>
 	<title>Dating Web Site</title>
 	<script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+	<link rel="stylesheet" type="text/css" href="my_css_style.css">
 </head>
 <body>	
 	<h1>Please Enter Your Details For Our Dating Website!</h1>
@@ -57,14 +58,14 @@
 				<legend>Your Indicators</legend>
 
 				<label for="height">Height:</label>
-				Short
+				<span class="minRangeValue">Short</span>
 				<input type="range" id="height" name="height" min="0" max="100">
-				Tall<br>
+				<span class="maxRangeValue">Tall</span><br>
 
 				<label for="salary">Salary:</label>
-				Poor
+				<span class="minRangeValue">Poor</span>
 				<input type="range" id="salary" name="salary" min="0" max="100">
-				Rich<br>
+				<span class="maxRangeValue centerElement">Rich</span><br>
 			</fieldset><br>
 		</section>
 		
