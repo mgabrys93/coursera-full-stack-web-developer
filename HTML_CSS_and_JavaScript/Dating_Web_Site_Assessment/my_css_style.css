@@ -12,12 +12,24 @@ label{
 	text-align: right; 
 	vertical-align: top;
 }
+label:hover{
+	font-size: 25px;
+}
+input:hover{
+	font-size: 25px;
+}
 textarea{
 	width: 360px; 
 	height: 50px;
 }
 #gender, #contactMethods{
 	width: auto;
+}
+.elementLabel{
+	width: auto;
+	display: inline-block; 
+	text-align: left; 
+	vertical-align: top;
 }
 .minRangeValue{
 	background-color: red; 
